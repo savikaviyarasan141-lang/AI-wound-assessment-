@@ -1,0 +1,35 @@
+Python environment
+
+woundenv/
+venv/
+.venv/
+pycache/
+*.py[cod]
+
+Dataset archives and extracted images
+
+dataset_extracted/
+wound_type_dataset/
+*.zip
+
+Local databases and patient history
+
+*.db
+*.sqlite
+*.sqlite3
+
+Unnecessary trained models
+
+models/wound_classifier.joblib
+models/wound_type_mobilenet.keras
+
+Secrets and environment variables
+
+.env
+.streamlit/secrets.toml
+
+Local development files
+
+.DS_Store
+Thumbs.db
+evaluation_results/
